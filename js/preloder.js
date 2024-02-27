@@ -1,12 +1,16 @@
-const preloader = document.querySelector(".preloder");
-//console.log(preloader);
+const preloader = () => {
+  const preloader = document.querySelector(".preloder");
+  //console.log(preloader);
 
-preloader.classList.add("active");
+  preloader.classList.add("active");
 
-// setTimeout(function () {
-//   preloader.classList.remove("active");
-// }, 500);
+  // setTimeout(function () {
+  //   preloader.classList.remove("active");
+  // }, 500);
 
-setTimeout(() => {
-  preloader.classList.remove("active");
-}, 500);
+  setTimeout(() => {
+    preloader.classList.remove("active");
+  }, 500);
+};
+
+preloader();

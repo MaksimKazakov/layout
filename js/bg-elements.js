@@ -1,4 +1,5 @@
-const elements = document.querySelectorAll(".set-bg");
+const bgElements = () =>{
+  const elements = document.querySelectorAll(".set-bg");
 //console.log(elements);
 
 for (let i = 0; i < elements.length; i++) {
@@ -9,3 +10,5 @@ for (let i = 0; i < elements.length; i++) {
   //console.dir(elements[i]);
   //console.log(src);
 }
+}
+bgElements();

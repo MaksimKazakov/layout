@@ -12,7 +12,7 @@ modalBtn.addEventListener("click", () => {
 });
 
 
-modal.addEventListener("input", (event)=>{
+modalInput.addEventListener("input", (event)=>{
     const value = event.target.value;
     console.log(value);
 })
